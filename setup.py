@@ -32,7 +32,8 @@ def get_version():
 
 
 install_requires = [
-    "click>=6.7"
+    "click>=6.7",
+    "requests>=2.21"
 ]
 
 
