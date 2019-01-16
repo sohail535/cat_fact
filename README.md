@@ -6,7 +6,7 @@
 Create and activate virtual environment.
 
 ```bash
-  $ virtualenvironment venv
+  $ virtualenv venv
   $ source ./venv/bin/activate
 ```
 Now run `python setup.py install`, this will install `catFact` command into the virtual environment
