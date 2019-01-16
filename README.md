@@ -1,5 +1,5 @@
 # cat_fact
-`catFact`: Get random cat facts from the internet :smile:
+`catFact` Get random cat facts from the internet :smile:
 
 ## Installation Instructions
 
@@ -13,7 +13,7 @@ Now run `python setup.py install`, this will install `catFact` command into the 
 
 If running `catFact` says command not found, deactivate and activate the virtual environment. That should fix it.
 
-## Example:
+## Example
 
 ```bash
   $ catFact
