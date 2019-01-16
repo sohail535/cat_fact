@@ -1,22 +1,12 @@
-"""
-cat_fact
--------
-
-The client interface for cat fact
-
-Install
-~~~~~~~
-
-..code:: bash
-
-    python setyp.py install
-"""
-
 import sys
 import re
 import os.path
 
 from setuptools import setup, find_packages
+
+
+with open("README.md") as f:
+    long_description = f.read()
 
 
 def get_version():
@@ -40,12 +30,16 @@ install_requires = [
 setup(
     name="cat_fact",
     version=get_version(),
-    author="The great me",
-    author_email="author@me.com",
-    description="A cat fact cli",
-    long_description=__doc__,
+    author="Shaik Sohail Yunus",
+    author_email="sohail.yunusha1@gmail.com",
+    maintainer="Shaik Sohail Yunus",
+    maintainer_email="sohail.yunusha1@gmail.com",
+    description="Get random cat facts fromt the internet " + u"\U0001F638",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     install_requires=install_requires,
     packages=find_packages(),
+    url="https://github.com/sohail535/cat_fact",
     entry_points="""
         [console_scripts]
         catFact = cat_fact.cli:cli

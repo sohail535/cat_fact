@@ -1,7 +1,14 @@
-# cat_fact
-`catFact` Get random cat facts from the internet :smile:
+# cat-fact
+
+`catFact` Get random cat facts from the internet
 
 ## Installation Instructions
+
+```bash
+$ pip install cat-fact
+```
+
+### Want bleeding edge version?
 
 Create and activate virtual environment.
 
