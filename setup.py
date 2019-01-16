@@ -45,6 +45,7 @@ setup(
     description="A cat fact cli",
     long_description=__doc__,
     install_requires=install_requires,
+    packages=find_packages(),
     entry_points="""
         [console_scripts]
         catFact = cat_fact.cli:cli
